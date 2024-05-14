@@ -4,3 +4,4 @@ node_modules
 .upm
 replit_zip_error_log.txt
 replit.nix
+yarn.lock
