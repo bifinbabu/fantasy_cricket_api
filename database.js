@@ -1,10 +1,14 @@
 // Database Details
-const DB_USER = process.env["DB_USER"];
-const DB_PWD = process.env["DB_PWD"];
-const DB_URL = process.env["DB_URL"];
+// const DB_USER = process.env["DB_USER"];
+// const DB_PWD = process.env["DB_PWD"];
+// const DB_URL = process.env["DB_URL"];
 const DB_NAME = "task-jeff";
 const DB_COLLECTION_NAME = "players";
 const DB_MATCH_COLLECTION_NAME = "match";
+
+const DB_USER = "merntd";
+const DB_PWD = "zmVnRfQiaAlt26r1";
+const DB_URL = "cluster0.tqaeshh.mongodb.net/";
 
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri =
